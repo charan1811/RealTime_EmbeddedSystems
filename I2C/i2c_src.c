@@ -1,3 +1,7 @@
+#include "inc/hw_i2c.h"
+#include "inc/hw_gpio.h"
+#include "driverlib/i2c.h"
+
 // I2C Write Function
 // Writes a byte of data to a specific register of an I2C device.
 void I2C_Write(uint8_t regadd, uint8_t data)
